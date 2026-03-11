@@ -83,10 +83,10 @@ $ rocker --nvidia --x11 --volume .:/sim_ws/src/rosgym -- utsm_sim
 - Clone the repo into the workspace:
   ```bash
   cd $HOME/sim_ws/src
-  git clone https://github.com/f1tenth/f1tenth_gym_ros
+  git clone https://github.com/UTSME59/utsm_sim.git
   ```
 - Update correct parameter for path to map file:
-  Go to `sim.yaml` [https://github.com/f1tenth/f1tenth_gym_ros/blob/main/config/sim.yaml](https://github.com/f1tenth/f1tenth_gym_ros/blob/main/config/sim.yaml) in your cloned repo, change the `map_path` parameter to point to the correct location. It should be `'<your_home_dir>/sim_ws/src/rosgym/maps/levine'`
+  Go to `sim.yaml` [https://github.com/UTSME59/utsm_sim/blob/main/rosgym/config/sim.yaml](https://github.com/UTSME59/utsm_sim/blob/main/rosgym/config/sim.yaml) in your cloned repo, change the `map_path` parameter to point to the correct location. It should be `'<your_home_dir>/sim_ws/src/rosgym/maps/levine'`
 - Install dependencies with rosdep:
   ```bash
   source /opt/ros/humble/setup.bash
