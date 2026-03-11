@@ -1,0 +1,8 @@
+Pillow
+gymnasium
+numba
+numpy
+pyglet
+pyopengl
+pyyaml
+scipy
